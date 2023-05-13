@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "tiktokdata"
+version = "0.1.0"
+description = "TikTok Data Analysis of Exported Usage Data"
+authors = ["DANLSN"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.30.0"
+dictdatabase = "^2.4.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
